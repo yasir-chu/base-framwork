@@ -1,0 +1,19 @@
+# 启动端口
+server:
+  port: 8080
+# 数据连接信息
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/base-framwork?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource # 自定义数据源
+
+# mp配置
+mybatis-plus:
+  type-aliases-package: com.chuyx.pojo.*
+  mapper-locations: classpath:mybatis/mapper/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true # 日志输出
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl # 输出方式
