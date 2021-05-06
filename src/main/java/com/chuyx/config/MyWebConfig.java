@@ -19,7 +19,9 @@ import java.util.ArrayList;
 public class MyWebConfig implements WebMvcConfigurer {
    @Override
    public void addCorsMappings(CorsRegistry registry) {
-         registry.addMapping("/api/**").allowedOrigins("*").allowedMethods("GET", "POST", "OPTIONS").allowedHeaders("*").allowCredentials(true).maxAge(3600L);
+         registry.addMapping("/api/**").allowedOrigins("*")
+                 .allowedMethods("GET", "POST", "OPTIONS")
+                 .allowedHeaders("*").allowCredentials(true).maxAge(3600L);
    }
 
    @Bean
