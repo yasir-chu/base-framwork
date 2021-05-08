@@ -3,7 +3,7 @@ package com.chuyx;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.web.servlet.ServletComponentScan;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.ComponentScan;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
@@ -15,6 +15,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2 // 开启swagger2
 @ComponentScan(basePackages = {"com.chuyx.*"})
 @SpringBootApplication
+@EnableEurekaClient
 public class BaseFramworkApplication {
 
     public static void main(String[] args) {
