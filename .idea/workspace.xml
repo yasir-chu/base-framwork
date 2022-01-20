@@ -5,62 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="360deee7-816e-4592-8d24-0130783a0d48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/base-framwork.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/contant/CodeMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/exception/CommonException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/handler/CommonExceptionHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/service/HttpRequestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/service/impl/HttpRequestServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/vo/ResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/BaseFramworkApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/BaseFramworkApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/api/StudentApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/api/TestApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/config/MyWebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/config/CommonWebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/config/XxlJobConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/controller/StudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/handler/HandlerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/mapper/StudentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/mapper/mapper/StudentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/pojo/po/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/service/StudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/service/impl/StudentServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/util/DozerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/util/DozerUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/BaseFramworkApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/api/StudentApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/config/MyWebConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/config/XxlJobConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/controller/StudentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/handler/HandlerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/mapper/StudentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/mapper/mapper/StudentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/pojo/po/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/service/StudentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/service/impl/StudentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/config/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base-framwork.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/api/TestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/api/TestApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/contant/NormalConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/contant/NormalConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/service/HttpRequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/service/HttpRequestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/service/impl/HttpRequestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/service/impl/HttpRequestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +71,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="1.8" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />
   </component>
@@ -131,6 +88,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -141,7 +102,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.14084506" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -150,6 +111,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BaseFramworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="base-framwork" />
       <extension name="coverage">
@@ -179,7 +151,7 @@
       <updated>1642642885692</updated>
       <workItem from="1642642888977" duration="2903000" />
       <workItem from="1642658282452" duration="5388000" />
-      <workItem from="1642663843773" duration="905000" />
+      <workItem from="1642663843773" duration="6664000" />
     </task>
     <servers />
   </component>

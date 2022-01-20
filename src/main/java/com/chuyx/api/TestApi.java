@@ -26,4 +26,11 @@ public interface TestApi {
      */
     @PostMapping(value = "/views/test/success")
     ResultPage<String> success();
+
+    /**
+     * 测试-post请求
+     * @return
+     */
+    @PostMapping(value = "/views/test/post")
+    ResultPage<String> post();
 }
