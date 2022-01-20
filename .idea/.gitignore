@@ -5,6 +5,8 @@ target/
 *.ipr
 *.iws
 *.log
+*.class
+*.lst
 
 #eclipse
 .project
