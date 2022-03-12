@@ -23,4 +23,9 @@ public class StudentServiceImpl implements StudentService {
     public List<Student> queryAllStudent() {
         return studentMapper.selectList(new QueryWrapper<>());
     }
+
+    @Override
+    public Student queryStudentById(Integer id) {
+        return studentMapper.selectById(id);
+    }
 }

@@ -15,4 +15,11 @@ public interface StudentService {
      * @return 所有学生信息
      */
     List<Student> queryAllStudent();
+
+    /**
+     * 根据学生id查询学生信息
+     * @param id 学生id
+     * @return 学生信息
+     */
+    Student queryStudentById(Integer id);
 }
