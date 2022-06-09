@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="360deee7-816e-4592-8d24-0130783a0d48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/config/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/config/SchedulingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/task/SonarRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/task/TestSetTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/util/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/util/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/util/RestTemplateUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-framwork.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/api/TestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/api/TestApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/contant/NormalConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/contant/NormalConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/service/HttpRequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/service/HttpRequestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/service/impl/HttpRequestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/service/impl/HttpRequestServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.14084506" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
@@ -109,15 +110,33 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\nogerrit\base-framwork\.idea" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chuyx.util" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="Spring Boot.BaseFramworkApplication">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuyx.test.Test" />
+      <module name="base-framwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chuyx.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuyx.pojo.test" />
+      <module name="base-framwork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chuyx.pojo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,6 +157,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.BaseFramworkApplication" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +172,30 @@
       <updated>1642642885692</updated>
       <workItem from="1642642888977" duration="2903000" />
       <workItem from="1642658282452" duration="5388000" />
-      <workItem from="1642663843773" duration="6664000" />
+      <workItem from="1642663843773" duration="8813000" />
+      <workItem from="1642992084992" duration="937000" />
+      <workItem from="1644212297166" duration="259000" />
+      <workItem from="1650015502699" duration="15338000" />
+      <workItem from="1650433614329" duration="2331000" />
+      <workItem from="1650769702839" duration="2554000" />
+      <workItem from="1651194934167" duration="926000" />
+      <workItem from="1651712946444" duration="1186000" />
+      <workItem from="1651805426347" duration="1856000" />
+      <workItem from="1651886331928" duration="2890000" />
+      <workItem from="1652146536008" duration="590000" />
+      <workItem from="1652189484461" duration="1208000" />
+      <workItem from="1652249019509" duration="584000" />
+      <workItem from="1652334124083" duration="1187000" />
+      <workItem from="1652411134469" duration="1878000" />
+      <workItem from="1652413996056" duration="786000" />
+      <workItem from="1652693239190" duration="1515000" />
+      <workItem from="1652780075540" duration="6096000" />
+      <workItem from="1653288226600" duration="650000" />
+      <workItem from="1653289306615" duration="12902000" />
+      <workItem from="1653557731263" duration="4973000" />
+      <workItem from="1654045536136" duration="678000" />
+      <workItem from="1654046875714" duration="3349000" />
+      <workItem from="1654657817196" duration="4797000" />
     </task>
     <servers />
   </component>
@@ -172,5 +216,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/chuyx/task/TestSetTag.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
