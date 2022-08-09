@@ -34,6 +34,6 @@ public interface TestApi {
     @PostMapping(value = "/views/test/post")
     ResultPage<String> post();
 
-    @PostMapping(value = "/views/test/login")
-    ResultPage<String> login();
+    @PostMapping(value = "/views/test/mqSendSimpleMessage")
+    ResultPage<String> mqSendSimpleMessage(String message);
 }

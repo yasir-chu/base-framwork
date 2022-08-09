@@ -2,6 +2,7 @@ package com.chuyx.task;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.chuyx.pojo.TagKeyValueDTO;
 import com.chuyx.util.HttpUtil;
 import com.chuyx.util.RestTemplateUtil;
 import org.apache.http.HttpResponse;
@@ -58,5 +59,14 @@ public class TestSetTag {
         jsonObject.put("password", "yuxiang.chu@corp.to8to.com");
         String url = "http://10.50.1.121:9000/api/authentication/login";
         String post = HttpUtil.post(url, jsonObject.toString());
+    }
+
+    public void test() {
+        ArrayList<TagKeyValueDTO> tagKeyValueDTOS = new ArrayList<>();
+        TagKeyValueDTO tagKeyValueDTO = new TagKeyValueDTO();
+        tagKeyValueDTO.setKey("!");
+        tagKeyValueDTO.setValue("2");
+        tagKeyValueDTOS.add(tagKeyValueDTO);
+        String s = JSONObject.toJSONString(tagKeyValueDTOS);
     }
 }

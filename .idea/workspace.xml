@@ -5,16 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="360deee7-816e-4592-8d24-0130783a0d48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/config/SchedulingConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/task/SonarRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/task/TestSetTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/util/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/util/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/util/RestTemplateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/aop/RabbitMqAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/config/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/config/RabbitMqTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/contant/MqConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/listener/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/pojo/TagKeyValueDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/service/RabbitMqTestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/service/impl/RabbitMqTestServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/BaseFramworkApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/BaseFramworkApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/api/TestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/api/TestApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/task/TestSetTag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/task/TestSetTag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/base-framwork-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/base-framwork-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/api/TestApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chuyx/api/TestApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chuyx/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/task/SonarRobot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chuyx/task/SonarRobot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/task/TestSetTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chuyx/task/TestSetTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/util/DozerUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chuyx/util/DozerUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +63,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="tu8to" />
+                    <option name="lastUsedInstant" value="1654770270" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="new" />
                     <option name="lastUsedInstant" value="1642643314" />
@@ -108,6 +127,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\nogerrit\base-framwork" />
       <recent name="E:\nogerrit\base-framwork\.idea" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -137,6 +157,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,7 +228,18 @@
       <workItem from="1653557731263" duration="4973000" />
       <workItem from="1654045536136" duration="678000" />
       <workItem from="1654046875714" duration="3349000" />
-      <workItem from="1654657817196" duration="4797000" />
+      <workItem from="1654657817196" duration="10813000" />
+      <workItem from="1655344734501" duration="592000" />
+      <workItem from="1655521776285" duration="3624000" />
+      <workItem from="1655779181507" duration="593000" />
+      <workItem from="1655862557421" duration="589000" />
+      <workItem from="1658366153865" duration="5976000" />
+      <workItem from="1658797670964" duration="589000" />
+      <workItem from="1658970209098" duration="628000" />
+      <workItem from="1659080275053" duration="592000" />
+      <workItem from="1659355903865" duration="3021000" />
+      <workItem from="1659663327190" duration="6983000" />
+      <workItem from="1659923412220" duration="13678000" />
     </task>
     <servers />
   </component>
@@ -216,16 +260,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/chuyx/task/TestSetTag.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

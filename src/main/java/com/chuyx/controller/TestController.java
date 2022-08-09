@@ -4,6 +4,7 @@ import com.chuyx.api.TestApi;
 import com.chuyx.contant.CodeMsg;
 import com.chuyx.exception.CommonException;
 import com.chuyx.service.HttpRequestService;
+import com.chuyx.service.RabbitMqTestService;
 import com.chuyx.task.SonarRobot;
 import com.chuyx.task.TestSetTag;
 import com.chuyx.vo.ResultPage;
@@ -20,8 +21,12 @@ public class TestController implements TestApi {
     @Autowired
     private TestSetTag testSetTag;
 
+    @Autowired
+    private SonarRobot sonarRobot;
+
     @Override
     public ResultPage<String> exceptionTest() {
+        testSetTag.test();
         throw new CommonException(new CodeMsg(10001, "参数错误"));
     }
 
@@ -37,9 +42,12 @@ public class TestController implements TestApi {
 
     }
 
+
+    @Autowired
+    private RabbitMqTestService rabbitMqTestService;
     @Override
-    public ResultPage<String> login() {
-        testSetTag.login();
+    public ResultPage<String> mqSendSimpleMessage(String message) {
+        rabbitMqTestService.sendSimpleMessage(message);
         return ResultPage.data("1");
     }
 }
