@@ -21,7 +21,7 @@ public class RabbitMqTestServiceImpl implements RabbitMqTestService {
 
     @Override
     public void sendSimpleMessage(String queueMessage) {
-        rabbitTemplate.send("chuyx.direct.exchange","", new Message(queueMessage.getBytes(), new MessageProperties()));
-        rabbitTemplate.send("chuyx.fanout.myself.exchange", "", new Message(queueMessage.getBytes(), new MessageProperties()));
+        rabbitTemplate.send("chuyx.direct.queue", new Message(queueMessage.getBytes(), new MessageProperties()));
+        rabbitTemplate.send("chuyx.fanout.myself.exchange",  new Message(queueMessage.getBytes(), new MessageProperties()));
     }
 }

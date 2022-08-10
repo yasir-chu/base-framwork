@@ -46,17 +46,17 @@ public class RabbitConfig {
 
     @Bean("bindingFanoutOne")
     public Binding bindingFanoutOne(@Qualifier("chuyxFanoutMyselfQueueOne") Queue queue, @Qualifier("chuyxFanoutMyselfExchange") Exchange exchange){
-        return BindingBuilder.bind(queue).to(exchange).with("#").noargs();
+        return BindingBuilder.bind(queue).to(exchange).with("chuyx.fanout.myself.exchange").noargs();
     }
 
     @Bean("bindingFanoutTwo")
     public Binding bindingFanoutTwo(@Qualifier("chuyxFanoutMyselfQueueTwo") Queue queue, @Qualifier("chuyxFanoutMyselfExchange") Exchange exchange){
-        return BindingBuilder.bind(queue).to(exchange).with("#").noargs();
+        return BindingBuilder.bind(queue).to(exchange).with("chuyx.fanout.myself.exchange").noargs();
     }
 
     @Bean("bindingFanoutThree")
     public Binding bindingFanoutThree(@Qualifier("chuyxFanoutMyselfQueueThree") Queue queue, @Qualifier("chuyxFanoutMyselfExchange") Exchange exchange){
-        return BindingBuilder.bind(queue).to(exchange).with("#").noargs();
+        return BindingBuilder.bind(queue).to(exchange).with("chuyx.fanout.myself.exchange").noargs();
     }
 
 }

@@ -23,6 +23,9 @@ public class RabbitMqTemplateConfig {
     public RabbitTemplate rabbitTemplate(CachingConnectionFactory cachingConnectionFactory) {
         RabbitTemplate rabbitTemplate = new RabbitTemplate(cachingConnectionFactory);
         rabbitTemplate.setMessageConverter(jackson2JsonMessageConverter());
+
+        // 消息通过交换机无法匹配到队列会返回给生产者，并触发messageReturn  // 为false时，匹配不对会直接丢弃
+        rabbitTemplate.setMandatory(true);
         // 消息发送确认机制 - 发送到交换机回调
         rabbitTemplate.setConfirmCallback(confirmCallback);
         // 消息发送确认机制 - 发送到队列回调   注：如果队列开启了持久化，这消息会保存到队列后回调
@@ -43,13 +46,13 @@ public class RabbitMqTemplateConfig {
         @Override
         public void confirm(CorrelationData correlationData, boolean ack, String cause) {
             assert correlationData != null;
-            Message message = correlationData.getReturnedMessage();
             if (ack) {
                 // 成功
-                log.info("[发送mq成功]-{}", message);
+                log.info("[发送mq成功]-发送到exchange");
             } else {
                 // 失败
-                log.info("[发送mq失败]-{}", correlationData.getId());
+                Message message = correlationData.getReturnedMessage();
+                log.info("[发送mq失败]-{}, 原因：{}", correlationData.getId(), cause);
                 // 进行重试
                 if (correlationData.getReturnedMessage() == null) {
                     log.info("[rabbitmq]-[发送信息为空]-不重试，抛弃信息，记录日志-{}", JSON.toJSONString(message));
@@ -60,7 +63,7 @@ public class RabbitMqTemplateConfig {
                 String exchange = returnedMessage.getMessageProperties().getReceivedExchange();
                 String queue = returnedMessage.getMessageProperties().getConsumerQueue();
                 byte[] messageBody = message != null ? message.getBody() : null;
-                log.info("[]-{},{},{},{}", routingKey, exchange, queue, messageBody);
+                log.info("[发送mq失败]-[相关信息]-路由键：{},交换机：{},队列：{}, 消息：{}", routingKey, exchange, queue, messageBody);
             }
         }
     };

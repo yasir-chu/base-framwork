@@ -24,7 +24,7 @@ public class TestListener {
 
     @RabbitListener(
             bindings = @QueueBinding(
-                    value = @Queue(value = "chuyx.direct.exchange", durable = "true"),
+                    value = @Queue(value = "chuyx.direct.queue", durable = "true"),
                     exchange = @Exchange(value = "chuyx.direct.exchange")),
             concurrency = "1"
     )
