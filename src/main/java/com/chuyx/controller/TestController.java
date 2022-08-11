@@ -3,10 +3,9 @@ package com.chuyx.controller;
 import com.chuyx.api.TestApi;
 import com.chuyx.contant.CodeMsg;
 import com.chuyx.exception.CommonException;
-import com.chuyx.service.HttpRequestService;
 import com.chuyx.service.RabbitMqTestService;
-import com.chuyx.task.SonarRobot;
-import com.chuyx.task.TestSetTag;
+import com.chuyx.service.SonarRobotService;
+import com.chuyx.service.impl.SonarRobotServiceImpl;
 import com.chuyx.vo.ResultPage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,14 +18,10 @@ import org.springframework.stereotype.Controller;
 public class TestController implements TestApi {
 
     @Autowired
-    private TestSetTag testSetTag;
-
-    @Autowired
-    private SonarRobot sonarRobot;
+    private SonarRobotService sonarRobotService;
 
     @Override
     public ResultPage<String> exceptionTest() {
-        testSetTag.test();
         throw new CommonException(new CodeMsg(10001, "参数错误"));
     }
 
@@ -37,9 +32,8 @@ public class TestController implements TestApi {
 
     @Override
     public ResultPage<String> post() {
-        SonarRobot.findSonarQube();
+        sonarRobotService.findSonarQube();
         return ResultPage.data("!");
-
     }
 
 

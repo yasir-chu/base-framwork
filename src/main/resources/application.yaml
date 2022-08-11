@@ -22,3 +22,12 @@ spring:
     listener:
       simple:
         acknowledge-mode: manual
+
+# xxl-job 配置
+xxl:
+  job:
+    admin:
+      addresses: http://1.15.47.109:9080/xxl-job-admin
+    executor:
+      port: 9999
+      appname: base-framwork
