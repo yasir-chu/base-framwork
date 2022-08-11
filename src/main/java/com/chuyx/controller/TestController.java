@@ -20,6 +20,9 @@ public class TestController implements TestApi {
     @Autowired
     private SonarRobotService sonarRobotService;
 
+    @Autowired
+    private RabbitMqTestService rabbitMqTestService;
+
     @Override
     public ResultPage<String> exceptionTest() {
         throw new CommonException(new CodeMsg(10001, "参数错误"));
@@ -27,21 +30,19 @@ public class TestController implements TestApi {
 
     @Override
     public ResultPage<String> success() {
-        return ResultPage.data("123456");
+        return ResultPage.data(123456);
     }
 
     @Override
     public ResultPage<String> post() {
         sonarRobotService.findSonarQube();
-        return ResultPage.data("!");
+        return ResultPage.data(1);
     }
 
 
-    @Autowired
-    private RabbitMqTestService rabbitMqTestService;
     @Override
     public ResultPage<String> mqSendSimpleMessage(String message) {
         rabbitMqTestService.sendSimpleMessage(message);
-        return ResultPage.data("1");
+        return ResultPage.data(1);
     }
 }

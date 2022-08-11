@@ -15,14 +15,14 @@ public interface TestApi {
 
     /**
      * 测试-抛出异常
-     * @return
+     * @return 结果
      */
     @PostMapping(value = "/views/test/exceptionTest")
     ResultPage<String> exceptionTest();
 
     /**
      * 测试-异常成功
-     * @return
+     * @return 结果
      */
     @PostMapping(value = "/views/test/success")
     ResultPage<String> success();

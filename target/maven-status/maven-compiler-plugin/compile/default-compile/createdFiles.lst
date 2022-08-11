@@ -21,9 +21,9 @@ com\chuyx\service\HttpRequestService.class
 com\chuyx\pojo\TagKeyValueDTO.class
 com\chuyx\config\RabbitMqTemplateConfig$1.class
 com\chuyx\controller\TestController.class
-com\chuyx\task\SonarNoticeTask.class
 com\chuyx\api\TestApi.class
 com\chuyx\BaseFramworkApplication.class
+com\chuyx\task\TestTask.class
 com\chuyx\config\SchedulingConfig.class
 com\chuyx\config\RabbitMqTemplateConfig.class
 com\chuyx\contant\MqConstant.class

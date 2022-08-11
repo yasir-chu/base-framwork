@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="360deee7-816e-4592-8d24-0130783a0d48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/config/XxlJobConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/service/SonarRobotService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/task/SonarNoticeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/task/TestTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/aop/RabbitMqAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/aop/RabbitMqAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/api/TestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/api/TestApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/task/SonarRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/service/impl/SonarRobotServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/task/TestSetTag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/handler/CommonExceptionHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/handler/CommonExceptionHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/task/SonarNoticeTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/vo/ResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/vo/ResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/base-framwork-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/base-framwork-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chuyx/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/task/SonarRobot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/task/TestSetTag.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
@@ -231,7 +224,7 @@
       <workItem from="1659355903865" duration="3021000" />
       <workItem from="1659663327190" duration="6983000" />
       <workItem from="1659923412220" duration="13800000" />
-      <workItem from="1660094796327" duration="13821000" />
+      <workItem from="1660094796327" duration="16644000" />
     </task>
     <servers />
   </component>

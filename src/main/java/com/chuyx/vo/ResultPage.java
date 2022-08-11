@@ -1,5 +1,6 @@
 package com.chuyx.vo;
 
+import com.alibaba.fastjson.JSON;
 import com.chuyx.contant.CodeMsg;
 import com.chuyx.exception.CommonException;
 import lombok.AllArgsConstructor;
@@ -35,9 +36,9 @@ public class ResultPage<T> {
         this.msg = msg;
     }
 
-    public static <T> ResultPage<T> data(T data){
+    public static <T> ResultPage<String> data(T data){
         try{
-            return ResultPage.success(CodeMsg.success(), data);
+            return ResultPage.success(CodeMsg.success(), JSON.toJSONString(data));
         }catch (CommonException e){
             return ResultPage.fail(new CodeMsg(e.getCodeMsg().getCode(), e.getCodeMsg().getMsg()));
         }catch (Exception e){

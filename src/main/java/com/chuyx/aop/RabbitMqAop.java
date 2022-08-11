@@ -6,16 +6,11 @@ import com.rabbitmq.client.Channel;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.Signature;
-import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.amqp.core.Message;
-import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import java.io.IOException;
 
 /**
  * @author yuxiang.chu
@@ -28,7 +23,7 @@ public class RabbitMqAop {
 
 
     @Pointcut("@annotation(org.springframework.amqp.rabbit.annotation.RabbitListener)")
-    public void listenerPointCut(){
+    public void listenerPointCut() {
 
     }
 

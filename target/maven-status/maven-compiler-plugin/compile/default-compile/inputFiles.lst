@@ -6,7 +6,6 @@ E:\nogerrit\base-framwork\src\main\java\com\chuyx\pojo\TagKeyValueDTO.java
 E:\nogerrit\base-framwork\src\main\java\com\chuyx\service\HttpRequestService.java
 E:\nogerrit\base-framwork\src\main\java\com\chuyx\contant\NormalConstant.java
 E:\nogerrit\base-framwork\src\main\java\com\chuyx\BaseFramworkApplication.java
-E:\nogerrit\base-framwork\src\main\java\com\chuyx\task\SonarNoticeTask.java
 E:\nogerrit\base-framwork\src\main\java\com\chuyx\api\TestApi.java
 E:\nogerrit\base-framwork\src\main\java\com\chuyx\exception\CommonException.java
 E:\nogerrit\base-framwork\src\main\java\com\chuyx\config\RabbitConfig.java
@@ -25,5 +24,6 @@ E:\nogerrit\base-framwork\src\main\java\com\chuyx\util\RestTemplateUtil.java
 E:\nogerrit\base-framwork\src\main\java\com\chuyx\contant\MqConstant.java
 E:\nogerrit\base-framwork\src\main\java\com\chuyx\config\Config.java
 E:\nogerrit\base-framwork\src\main\java\com\chuyx\controller\TestController.java
+E:\nogerrit\base-framwork\src\main\java\com\chuyx\task\TestTask.java
 E:\nogerrit\base-framwork\src\main\java\com\chuyx\service\RabbitMqTestService.java
 E:\nogerrit\base-framwork\src\main\java\com\chuyx\util\DateUtils.java

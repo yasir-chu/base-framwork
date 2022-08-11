@@ -20,7 +20,7 @@ public class CommonExceptionHandle {
 
     @ExceptionHandler
     @ResponseBody
-    public ResponseEntity<ResultPage> CommonExceptionHandle(CommonException e){
+    public <T> ResponseEntity<ResultPage<T>> commonExceptionHandle(CommonException e){
         // 获得异常消息
         CodeMsg codeMsg = e.getCodeMsg();
         // 设置错误消息页面返回
