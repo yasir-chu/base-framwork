@@ -7,15 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="basse-framwork-api" />
         <module name="base-framwork" />
         <module name="base-framwork-server" />
-        <module name="basse-framwork-api" />
+        <module name="base-framwork-api" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base-framwork" target="8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="base-framwork" options="-parameters" />
+      <module name="base-framwork-api" options="-parameters" />
       <module name="base-framwork-server" options="-parameters" />
       <module name="basse-framwork-api" options="-parameters" />
     </option>
