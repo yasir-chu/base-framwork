@@ -12,22 +12,30 @@ mybatis-plus:
 
 # mq配置
 spring:
-  rabbitmq:
-    username: guest
-    password: guest
-    host: 1.15.47.109
-    port: 5672
-    publisher-returns: true
-    publisher-confirm-type: correlated
-    listener:
-      simple:
-        acknowledge-mode: manual
+  application:
+    name: myslef
+#  rabbitmq:
+#    username: guest
+#    password: guest
+#    host: 1.15.47.109
+#    port: 5672
+#    publisher-returns: true
+#    publisher-confirm-type: correlated
+#    listener:
+#      simple:
+#        acknowledge-mode: manual
 
 # xxl-job 配置
-xxl:
-  job:
-    admin:
-      addresses: http://1.15.47.109:9080/xxl-job-admin
-    executor:
-      port: 9999
-      appname: base-framwork
+#xxl:
+#  job:
+#    admin:
+#      addresses: http://1.15.47.109:9080/xxl-job-admin
+#    executor:
+#      port: 9999
+#      appname: base-framwork
+
+# logstash配置
+logging:
+  config: classpath:log/logback-spring.xml
+  level:
+    com.chuyx:  info
