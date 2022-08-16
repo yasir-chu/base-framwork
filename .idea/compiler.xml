@@ -15,9 +15,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="base-framwork" options="-parameters" />
-      <module name="base-framwork-api" options="" />
-      <module name="base-framwork-server" options="" />
+      <module name="base-framwork" options="" />
+      <module name="base-framwork-api" options="-parameters" />
+      <module name="base-framwork-server" options="-parameters" />
       <module name="basse-framwork-api" options="-parameters" />
     </option>
   </component>
