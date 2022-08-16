@@ -46,6 +46,11 @@
             <version>5.5.1</version>
         </dependency>
 
+        <!--        http-->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.chuyx</groupId>
             <artifactId>base-framwork-api</artifactId>
