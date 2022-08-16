@@ -12,6 +12,8 @@ mybatis-plus:
 
 # mq配置
 spring:
+  application:
+    name: myslef
   rabbitmq:
     username: guest
     password: guest
@@ -31,3 +33,9 @@ xxl:
     executor:
       port: 9999
       appname: base-framwork
+
+# logstash配置
+logging:
+  config: classpath:log/logback-spring.xml
+  level:
+    com.chuyx:  info
