@@ -1,18 +1,18 @@
+server:
+  port: 8088
 spring:
   application:
-    name: chuyx-framwork
-  datasource:
-    username: root
-    password: 123456
-    url: jdbc:mysql://1.15.47.109:3306/base?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: base-framwork
 
+# apollo配置
+app:
+  id: base-framwork # Apollo管理平台中创建的项目的ID
+apollo:
+  meta: http://1.15.47.109:8080 # ConfigService访问地址
+  cacheDir: D:/cacheDir # 定义缓存目录，Apollo会自动缓存配置到当前目录中
+  bootstrap:
+    enabled: true # 开启Apollo
 
-server:
-  port: 8080
-mybatis-plus:
-  type-aliases-package: com.chuyx.pojo.*
-  mapper-locations: classpath:**/mapper/*.xml
-  configuration:
-    map-underscore-to-camel-case: true
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+  level:
+    com: info
