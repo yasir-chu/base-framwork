@@ -19,5 +19,7 @@ ps: 新的功能添加 一般都从此分支切出
 - 土巴兔通知机器人
 ## myself
 - all基础上成功引入elk
+## dynamicThraedPool
+- 引入DynamicTP线程池动态配置已经监控告警：官网：https://dynamictp.cn/
 
 
