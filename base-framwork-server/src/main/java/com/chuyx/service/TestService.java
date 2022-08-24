@@ -7,7 +7,19 @@ package com.chuyx.service;
  */
 public interface TestService {
 
-
+    /**
+     * 线程池使用测试
+     */
     void testThread();
 
+
+    /**
+     * 打印线程池信息
+     */
+    void getThreadPoolMessage();
+
+    /**
+     * 线程池使用拒绝策略测试
+     */
+    void testPolicy();
 }

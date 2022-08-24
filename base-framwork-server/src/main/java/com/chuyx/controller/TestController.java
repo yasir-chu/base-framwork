@@ -23,4 +23,16 @@ public class TestController implements TestApi {
         testService.testThread();
         return null;
     }
+
+    @Override
+    public String getThreadPoolMessage() {
+        testService.getThreadPoolMessage();
+        return null;
+    }
+
+    @Override
+    public String testPolicy() {
+        testService.testPolicy();
+        return null;
+    }
 }

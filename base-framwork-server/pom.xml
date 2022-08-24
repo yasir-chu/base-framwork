@@ -33,6 +33,13 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
+            <version>1.8.0</version>
+        </dependency>
+
         <dependency>
             <groupId>com.chuyx</groupId>
             <artifactId>base-framwork-api</artifactId>
@@ -43,8 +50,14 @@
 <!--        线程池监控以及动态配置-->
         <dependency>
             <groupId>io.github.lyh200</groupId>
-            <artifactId>dynamic-tp-spring-cloud-starter</artifactId>
-            <version>1.0.2-RELEASE</version>
+            <artifactId>dynamic-tp-spring-boot-starter-apollo</artifactId>
+            <version>1.0.7</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
     </dependencies>

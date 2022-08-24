@@ -12,12 +12,15 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ResponseBody
 public interface TestApi {
 
-    /**
-     * 查询所有学生信息
-     *
-     * @return 所有学生信息
-     */
+
     @PostMapping(value = "/views/test/test")
     String test();
+
+
+    @PostMapping(value = "/views/test/getThreadPoolMessage")
+    String getThreadPoolMessage();
+
+    @PostMapping(value = "/views/test/testPolicy")
+    String testPolicy();
 
 }
