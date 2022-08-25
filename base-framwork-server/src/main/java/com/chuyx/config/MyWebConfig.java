@@ -43,7 +43,7 @@ public class MyWebConfig implements WebMvcConfigurer {
       Contact contact = new Contact("yasir.chu", "null", "cyx_serendipity@126.com");
       return new ApiInfo(
               // 标题
-              "chuyx-blog",
+              "base-framwork",
               // 描述
               "yasir.chu的springBoot模板",
               // 版本
