@@ -7,19 +7,4 @@ SpringBoot基础框架
 3. 该项目是eureka的服务提供者也是服务消费者
 
 
-# 分支:
-## master: 
-- 简单的SpringBoot+MybatisPlus+Swagger 架构
-ps: 新的功能添加 一般都从此分支切出
-## api-server:
-- 分层，几乎和master一样
-## all
-- 引入xxl-job、mq 等
-## tu8to
-- 土巴兔通知机器人
-## myself
-- all基础上成功引入elk
-## dynamicThraedPool
-- 引入DynamicTP线程池动态配置已经监控告警：官网：https://dynamictp.cn/
-
-
+# 分支: mybatis plus 练习
