@@ -19,7 +19,7 @@ public class ProjExceptionAdvice {
     public ResResult<String> doException(Exception e) {
         log.error("[异常捕获]");
         if (e instanceof CommonException) {
-            return new ResResult<>(ResCodeEnum.FAIL.getCode(), ((CommonException)e).getNoticeMessage(), null);
+            return new ResResult<>(ResCodeEnum.FAIL.getCode(), e.getMessage(), null);
         }
         return new ResResult<>(ResCodeEnum.FAIL.getCode(), e.getMessage(), null);
     }

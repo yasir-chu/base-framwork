@@ -15,10 +15,9 @@ public class CommonException extends RuntimeException {
 
     private Integer errcode;
 
-    private String noticeMessage;
 
     public CommonException(String noticeMessage) {
+        super(noticeMessage);
         this.errcode = ResCodeEnum.FAIL.getCode();
-        this.noticeMessage = noticeMessage;
     }
 }
