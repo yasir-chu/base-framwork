@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="360deee7-816e-4592-8d24-0130783a0d48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/service/impl/TestServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/api/TestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/api/TestApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/config/RabbitConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/config/RabbitMqTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/config/RabbitMqTemplateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/config/SchedulingConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/config/XxlJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/config/XxlJobConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chuyx/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chuyx/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/base-framwork-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/base-framwork-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/api/TestApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chuyx/api/TestApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/config/SchedulingConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chuyx/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/handler/CommonExceptionHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chuyx/handler/CommonExceptionHandle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/util/RestTemplateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chuyx/util/RestTemplateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chuyx/vo/ResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/chuyx/vo/ResultPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="360deee7-816e-4592-8d24-0130783a0d48" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +45,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="myself" />
-                    <option name="lastUsedInstant" value="1660525273" />
+                    <option name="lastUsedInstant" value="1661421309" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="all" />
@@ -174,19 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BaseFramworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="base-framwork" />
       <extension name="coverage">
@@ -279,5 +243,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/base_framwork$BaseFramworkApplication.ic" NAME="BaseFramworkApplication Coverage Results" MODIFIED="1660550920084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
