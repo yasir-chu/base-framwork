@@ -20,7 +20,7 @@ public class StudentController implements StudentApi {
 
     @Override
     public String queryAllStudent() {
-        return JSON.toJSONString(studentService.queryAllStudent());
+        return JSON.toJSONString("Service1111");
     }
 
     @Override
@@ -28,7 +28,7 @@ public class StudentController implements StudentApi {
         if (student.getId() == null){
             return "";
         }
-        return JSON.toJSONString(studentService.queryStudentById(student.getId()));
+        return JSON.toJSONString("Service1111");
     }
 
 }

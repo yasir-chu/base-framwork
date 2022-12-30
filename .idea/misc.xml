@@ -7,6 +7,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/base-framwork-server/pom.xml" />
         <option value="$PROJECT_DIR$/base-framwork-api/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka001/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka002/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka003/pom.xml" />
+        <option value="$PROJECT_DIR$/base-framwork-server2/pom.xml" />
       </list>
     </option>
   </component>

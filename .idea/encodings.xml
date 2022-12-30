@@ -2,6 +2,17 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/base-framwork-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-framwork-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/base-framwork-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-framwork-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base-framwork-server2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../tool/maven/.m2/repository/org/springframework/boot/spring-boot-starter-parent/2.2.3.RELEASE/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../tool/maven/.m2/repository/org/springframework/boot/spring-boot-starter-parent/2.3.4.RELEASE/src/main/resources" charset="UTF-8" />
   </component>
 </project>

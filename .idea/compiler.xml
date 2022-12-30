@@ -7,8 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="base-framwork-server" />
+        <module name="base-framwork-server (1)" />
+        <module name="eureka001" />
+        <module name="eureka001 (2)" />
         <module name="basse-framwork-api" />
+        <module name="base-framwork-server" />
+        <module name="eureka001 (1)" />
         <module name="base-framwork-api" />
       </profile>
     </annotationProcessing>
@@ -18,7 +22,11 @@
       <module name="base-framwork" options="" />
       <module name="base-framwork-api" options="-parameters" />
       <module name="base-framwork-server" options="-parameters" />
+      <module name="base-framwork-server (1)" options="-parameters" />
       <module name="basse-framwork-api" options="-parameters" />
+      <module name="eureka001" options="-parameters" />
+      <module name="eureka001 (1)" options="-parameters" />
+      <module name="eureka001 (2)" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: chuyx-framwork
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://1.15.47.109:3306/base?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+server:
+  port: 8081
+mybatis-plus:
+  type-aliases-package: com.chuyx.pojo.*
+  mapper-locations: classpath:**/mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka/,http://127.0.0.1:7002/eureka/,http://127.0.0.1:7003/eureka/
+  instance:
+    status-page-url: http://127.0.0.1:8081/swagger-ui.html
+    instance-id: base-framwork:${server.port}
