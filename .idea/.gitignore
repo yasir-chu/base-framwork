@@ -1,31 +1,36 @@
-#idea
-.idea/
-target/
-*.iml
-*.ipr
-*.iws
-*.log
-*.class
-*.lst
 
-#eclipse
+# maven ignore
+
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.settings/
 .project
 .classpath
-.class
-.classpath.log
-pom.xml.versionsBackup
-.settings
 
-#gradle
-.gradle
-/build/
-gradle-app.setting
-.gradletasknamecache
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
 
-#nodejs
-node_modules/
+# temp ignore
+logs/
+*.doc
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
 
-## others
-.svn/
-rebel.xml
-.rebel-remote.xml.*
+# system ignore
+.DS_Store
+Thumbs.db
+
+# to8to rpc
+version
