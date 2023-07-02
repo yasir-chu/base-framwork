@@ -1,4 +1,6 @@
 # maven ignore
+.idea
+
 target/
 *.jar
 *.war
